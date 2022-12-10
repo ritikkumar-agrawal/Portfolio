@@ -1,0 +1,40 @@
+.myname{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+    font-size: 2rem;
+    color: #263159;
+    font-weight: bold;
+    
+}
+.contact{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+#Name{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+.iconclass{
+    list-style-type: none;
+}
+.links li{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: normal;
+} 
+.links{
+    /* margin-top: 10%; */
+    margin: 10% 2% 0 0;
+}
+/* .item{
+    border: 1px solid red;
+  } */

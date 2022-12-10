@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-color: #dfdfd0;
+  }
+.container {
+   display: grid;
+   grid-gap: 0.5rem;
+   width: 80vw;
+   height: 570px;
+   margin: 3% auto;
+   background-color: #eeeeea;
+   border-radius: 46px;
+   padding: 3% 2% 2% 2% ;
+   font-family: 'Ubuntu', sans-serif;
+   grid-template-rows: 1fr 0.5fr 10fr ;
+   grid-template-areas: 
+        /* 'Title Title Title Title Title Option' 
+        'HLine HLine HLine HLine HLine HLine'
+        'Photo Photo Photo Photo Name Name'; */
+        'Title Title Option Option Option' 
+        'HLine HLine HLine HLine HLine'
+        'Photo Photo Name Name Name';
+  }
+
+#Title{
+    grid-area: Title;
+    font-size: 30px;
+    /* text-align: left; */
+    margin-top: 10px;
+}
+
+#Option{
+    grid-area: Option;
+    width: 650px;
+    position: relative;
+    /* justify-content: center; */
+    margin: 0 auto;
+    margin-top: 20px;
+    /* left: 150px; */
+    /* text-align: right; */
+    /* border: 2px solid red; */
+}
+#HLine{
+    grid-area: HLine;
+}
+#Name{
+    grid-area: Name;
+}
+
+.navbar li {
+    display: inline-block;
+    /* padding-left: ; */
+} 
+.navbar li a {
+    color: #1e1e1e;
+    text-decoration: none;
+    padding: 0px 15px;
+    /* margin: 0 3%; */
+    font-weight: normal;
+    font-size: 20px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: rgb(12, 56, 29);
+}
+.Port a{
+    color: #1e1e1e;
+    text-decoration: none;
+    /* padding: 0px 15px; */
+}
+#Photo {
+    grid-area: Photo;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+

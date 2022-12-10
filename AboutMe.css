@@ -1,0 +1,17 @@
+.Opt1 {
+    text-decoration: underline;
+}
+/* .item{
+    border: 1px solid red;
+  } */
+  #Name{
+    width: 700px;
+}
+
+.SmallDetail li{
+    margin-top: 2%;
+
+}
+.question{
+    font-weight: bold;
+}
